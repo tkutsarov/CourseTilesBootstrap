@@ -1,0 +1,92 @@
+body {
+  font-family: Proxima Nova; }
+
+.orange {
+  color: #ffae00; }
+
+.red {
+  color: #f63712; }
+
+.blue {
+  color: #428bca; }
+
+.green {
+  color: #59a831; }
+
+#wrapper {
+  padding: 5px; }
+
+.rating-available-course {
+  margin-top: 12px; }
+
+.course-panel {
+  height: 100%;
+  border: 2px solid #d6d6d6;
+  margin-bottom: 5px; }
+
+.img-responsive {
+  width: 100%; }
+
+.course-info {
+  padding: 5px;
+  position: relative; }
+
+.course-title {
+  height: 50px;
+  width: 100%;
+  line-height: 25px;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+ul.hidden-menu-list {
+  list-style: none;
+  display: none;
+  padding: 0;
+  width: 200px;
+  position: absolute;
+  left: 90%;
+  top: 20px;
+  z-index: 999;
+  box-shadow: 3px 3px 3px #d6d6d6;
+  border: 1px solid #d6d6d6; }
+  ul.hidden-menu-list li {
+    display: none;
+    border-bottom: 2px solid #d6d6d6;
+    padding: 5px;
+    background-color: white; }
+  ul.hidden-menu-list li:hover {
+    background-color: #f3f3f3; }
+
+div.submenu:hover ul.hidden-menu-list, div.submenu:hover ul.hidden-menu-list li {
+  display: block;
+  color: black; }
+
+div.submenu:hover ul.hidden-menu-list li {
+  font-size: 14px; }
+
+.free-space {
+  display: inline-block; }
+
+.cource-info2 {
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis; }
+
+.progress {
+  height: 8px;
+  margin-bottom: 5px; }
+
+.submenu {
+  width: 12%;
+  height: 50px;
+  float: right;
+  font-size: 35px;
+  text-align: center;
+  color: #d6d6d6; }
+
+/*# sourceMappingURL=styles.css.map */
