@@ -21,8 +21,12 @@ div.course-panel {
   height: 100%;
   border: 2px solid #d6d6d6;
   margin-bottom: 5px; }
-  div.course-panel div.image-container img.img-responsive {
-    width: 100%; }
+  div.course-panel div.image-container a.image-link {
+    text-decoration: none;
+    width: 99%;
+    height: 99%; }
+    div.course-panel div.image-container a.image-link img.img-responsive {
+      width: 100%; }
   div.course-panel div.course-info {
     padding: 5px;
     position: relative; }

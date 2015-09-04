@@ -40,9 +40,15 @@ div.course-panel{
     margin-bottom:5px;
     
     div.image-container{
-        img.img-responsive{
-            width: 100%;
-        }
+        a.image-link{
+            text-decoration: none;
+            width:99%;
+            height:99%;
+            
+            img.img-responsive{
+                width: 100%;
+            }
+        }   
     }
     
     div.course-info{
