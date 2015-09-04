@@ -72,7 +72,11 @@ div.course-panel {
       overflow: hidden !important;
       text-overflow: ellipsis; }
     div.course-panel div.course-info div.rating-available-course {
-      margin-top: 12px; }
+      margin-top: 12px;
+      display: inline-block;
+      width: 100%; }
+      div.course-panel div.course-info div.rating-available-course span.cource-cost {
+        float: right; }
     div.course-panel div.course-info div.free-space {
       display: inline-block; }
     div.course-panel div.course-info div.progress {

@@ -115,6 +115,12 @@ div.course-panel{
 
         div.rating-available-course{
             margin-top: 12px;
+            display: inline-block;
+            width: 100%;
+            
+            span.cource-cost{
+                float:right;
+            }
         }
 
         div.free-space{
