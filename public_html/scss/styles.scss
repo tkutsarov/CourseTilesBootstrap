@@ -60,23 +60,21 @@ div.course-panel{
             width: 100%;
             line-height: 22px;  
             font-size: 14px;   
-            display: block;
-            display: -webkit-box;                    
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-            text-overflow: ellipsis;  
-            
+                       
             div.course-title{
                 width:85%; 
                 display: inline-block;
                 
-                span.course-title-text{               
+                span.course-title-text{     
+                    height: 50px;
+                    line-height: 22px;  
                     display: -webkit-box;
+                    display: -moz-box;
                     -webkit-line-clamp: 2;
                     -webkit-box-orient: vertical;
+                    -moz-box-orient: vertical;
                     overflow: hidden;
-                    text-overflow: ellipsis;  
+                    text-overflow:ellipsis;                     
                 }
             }
             
@@ -132,7 +130,7 @@ div.course-panel{
 
         div.cource-info2{
             white-space: nowrap;
-            overflow:hidden !important;
+            overflow:hidden;
             text-overflow: ellipsis;   
         }
 

@@ -34,20 +34,18 @@ div.course-panel {
       height: 50px;
       width: 100%;
       line-height: 22px;
-      font-size: 14px;
-      display: block;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-      text-overflow: ellipsis; }
+      font-size: 14px; }
       div.course-panel div.course-info div.course-title-field div.course-title {
         width: 85%;
         display: inline-block; }
         div.course-panel div.course-info div.course-title-field div.course-title span.course-title-text {
+          height: 50px;
+          line-height: 22px;
           display: -webkit-box;
+          display: -moz-box;
           -webkit-line-clamp: 2;
           -webkit-box-orient: vertical;
+          -moz-box-orient: vertical;
           overflow: hidden;
           text-overflow: ellipsis; }
       div.course-panel div.course-info div.course-title-field div.submenu {
@@ -84,7 +82,7 @@ div.course-panel {
         font-size: 14px; }
     div.course-panel div.course-info div.cource-info2 {
       white-space: nowrap;
-      overflow: hidden !important;
+      overflow: hidden;
       text-overflow: ellipsis; }
     div.course-panel div.course-info div.rating-available-course {
       margin-top: 12px;
