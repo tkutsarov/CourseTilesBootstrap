@@ -73,10 +73,9 @@ div.course-panel{
                 width:85%; 
                 display: inline-block;
                 
-                span.course-title-text{                        
+                span.course-title-text{                    
                     line-height: 58px;
-                    height:100%;
-                    width: 100%;                                   
+                    height:100%;                                                       
                 }
             }
             
@@ -162,7 +161,10 @@ div.available-course{
         // Do not display the submenu when the course is available and expand title to 100% width.
         div.course-title-field{                                            
             div.course-title{   
-                width:100%;                      
+                width:100%;   
+                span.course-title-text{                   
+                    width: 100%;
+                }
             }
                       
             div.submenu{          

@@ -46,8 +46,7 @@ div.course-panel {
         display: inline-block; }
         div.course-panel div.course-info div.course-title-field div.course-title span.course-title-text {
           line-height: 58px;
-          height: 100%;
-          width: 100%; }
+          height: 100%; }
       div.course-panel div.course-info div.course-title-field div.submenu {
         width: 12%;
         height: 116px;
@@ -98,6 +97,8 @@ div.course-panel {
 
 div.available-course div.course-panel div.course-title-field div.course-title {
   width: 100%; }
+  div.available-course div.course-panel div.course-title-field div.course-title span.course-title-text {
+    width: 100%; }
 div.available-course div.course-panel div.course-title-field div.submenu {
   width: 0;
   display: none; }
