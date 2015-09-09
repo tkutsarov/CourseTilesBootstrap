@@ -76,14 +76,7 @@ div.course-panel{
                 span.course-title-text{                        
                     line-height: 58px;
                     height:100%;
-                    width: 100%;
-                    //display: -webkit-box;
-                    //display: -moz-box;
-                    //-webkit-line-clamp: 2;
-                    //-webkit-box-orient: vertical;
-                    //-moz-box-orient: vertical;
-                    //overflow: hidden;
-                    //text-overflow:ellipsis;                     
+                    width: 100%;                                   
                 }
             }
             
@@ -137,13 +130,13 @@ div.course-panel{
             } 
         }
 
-        div.course-info2{    //display different color or hidden if none - js
+        div.course-info2{    
             white-space: nowrap;
             overflow:hidden;
             text-overflow: ellipsis;   
         }
 
-        div.bottom-info{  // js - if not available use progress, if so use ratings.
+        div.bottom-info{  
             margin-top: 12px;
             display: inline-block;
             width: 100%;
