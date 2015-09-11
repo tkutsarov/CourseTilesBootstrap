@@ -14,16 +14,11 @@ body {
   font-family: "Proxima Nova", sans-serif;
   font-weight: 400;
   color: #2d2d2d; }
-  body #wrapper {
+  body .container {
     padding: 5px;
     width: 100%;
     margin: 0 auto;
     min-width: 400px; }
-    body #wrapper .container {
-      margin: 0 auto; }
-      body #wrapper .container .row {
-        margin-left: 0;
-        margin-right: 0; }
 
 .course-panel {
   height: 100%;
@@ -69,8 +64,7 @@ body {
           z-index: 999;
           box-shadow: 3px 3px 3px #d6d6d6;
           border: 1px solid #d6d6d6;
-          color: #2d2d2d;
-          }
+          color: #2d2d2d; }
           .course-panel .course-info .course-title-field .submenu ul.hidden-menu-list li {
             display: none;
             border-bottom: 2px solid #d6d6d6;

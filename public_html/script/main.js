@@ -33,7 +33,7 @@ function showSubmenu() {
         $('ul.hidden-menu-list', this).toggle();
         $('ul.hidden-menu-list li', this).toggle();
 
-        var widthWrapper = $("#wrapper").width();
+        var widthWrapper = $("body .container").width();
         var widthSubmenu = $('ul.hidden-menu-list').width();
         var offset = $(this).offset().left;
 

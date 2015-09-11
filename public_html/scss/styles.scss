@@ -28,19 +28,11 @@ body{
     font-weight: $font-weight;
     color: $color-text;
 
-    #wrapper{
+    .container{
         padding: 5px;
         width:100%;
         margin: 0 auto;
         min-width: 400px;
-        .container{
-            margin: 0 auto;
-
-            .row{
-                margin-left: 0;
-                margin-right: 0;
-            }
-        }    
     }
 }
 
