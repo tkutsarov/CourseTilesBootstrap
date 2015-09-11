@@ -135,19 +135,12 @@ div.finished-course div.course-panel div.course-title-field div.submenu:hover ul
   display: none; }
 div.finished-course div.course-panel div.course-info div.info2 {
   height: 17px; }
-  div.finished-course div.course-panel div.course-info div.info2 div.course-info2 {
-    height: 0;
-    display: none; }
 div.finished-course div.course-panel div.course-info div.bottom-info {
   margin-top: 5px;
   height: 25px; }
   div.finished-course div.course-panel div.course-info div.bottom-info div.left-side-info {
     width: 100%;
     height: 25px; }
-    div.finished-course div.course-panel div.course-info div.bottom-info div.left-side-info div.rating-panel {
-      display: none; }
-  div.finished-course div.course-panel div.course-info div.bottom-info div.right-side-info {
-    display: none; }
 
 div.finished-course-submenu div.course-panel div.course-info div.info2 {
   visibility: hidden;
