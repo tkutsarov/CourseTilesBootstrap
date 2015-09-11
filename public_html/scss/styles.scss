@@ -27,7 +27,7 @@ body{
     font-family: $font;
     font-weight: $font-weight;
     color: $color-text;
-    
+
     div#wrapper{
         padding: 5px;
         width:100%;
@@ -35,7 +35,7 @@ body{
         min-width: 400px;
         div.container{
             margin: 0 auto;
-            
+
             div.row{
                 margin-left: 0;
                 margin-right: 0;
@@ -49,19 +49,19 @@ div.course-panel{
     height: 100%;
     border: 2px solid $color-grey;
     margin-bottom:5px;
-    
+
     div.image-container{
         a.image-link{
             text-decoration: none;
             width:99%;
             height:99%;
-            
+
             img.img-responsive{
                 width: 100%;
             }
         }   
     }
-    
+
     div.course-info{
         padding: 5px;
         position:relative; 
@@ -71,17 +71,17 @@ div.course-panel{
             width: 100%;
             line-height: 28px;  
             font-size: 18px;   
-                       
+
             div.course-title{   
                 height: 100%;
                 width:85%; 
                 display: inline-block;
-                
+
                 span.course-title-text{                    
                     display:inline-block;                                                                         
                 }
             }
-            
+
             //hidden submenu shown on hovering over the element
             div.submenu{          
                 width: 12%;
@@ -94,7 +94,7 @@ div.course-panel{
                 span.glyphicon{
                     line-height: 2;
                 }
-                
+
                 ul.hidden-menu-list{
                     list-style: none;
                     display:none;               
@@ -136,11 +136,11 @@ div.course-panel{
             margin-top: 10px;
             display: inline-block;
             width: 100%;
-            
+
             div.left-side-info, div.right-side-info{
                 display: inline-block;
             }
-            
+
             div.left-side-info{
                 div.progress-panel{
                     div.progress{
@@ -149,7 +149,7 @@ div.course-panel{
                     }
                 }
             }
-            
+
             div.right-side-info{
                 float:right;
                 padding-top: 3px;
@@ -169,20 +169,20 @@ div.available-course{
                     width: 100%;
                 }
             }
-                      
+
             div.submenu{          
                 width: 0;   
                 display: none;
             }                     
         }
-        
+
         div.info2{
             div.rating-price-container{
                 height:20;
                 //visibility:hidden;
             }              
         }
-        
+
         div.bottom-info{
             height: 27px;
             div.left-side-info{
@@ -204,29 +204,29 @@ div.started-course{
                 }
             }                     
         }
-        
+
         div.course-info{
             div.info2{               
-                //visibility:hidden;    
+                visibility:hidden;    
                 height:17px;
             }
-            
+
             div.bottom-info{
                 margin-top:5px;
                 height: 25px;
-                
+
                 div.left-side-info{
                     width:100%;
                     height: 25px;
                     div.rating-panel{                      
                         //display: none;
                     }
-                    
+
                 }
-                
+
                 div.right-side-info{                   
                     //display: none;
-                   
+
                 }
             }
         }       
@@ -243,29 +243,29 @@ div.started-course-expiration{
                 }
             }                     
         }
-        
+
         div.course-info{      
             div.info2{
                 div.rating-price-container{
-                    height:0;
-                    display:none;
+                    //height:0;
+                    //display:none;
                 }              
             }
-            
+
             div.bottom-info{
                 margin-top:5px;
                 height: 25px;
-                
+
                 div.left-side-info{
                     width:100%;
                     height: 25px;
                     div.rating-panel {                      
-                        display: none;
+                        //display: none;
                     }         
                 }
-                
+
                 div.right-side-info{                   
-                    display: none;
+                    //display: none;
                 }
             }           
         }       
@@ -282,21 +282,21 @@ div.finished-course{
                 }
             }                     
         }
-        
+
         div.course-info{      
             div.info2{
                 height:17px;
-                
+
                 div.course-info2{
                     height:0;
                     display:none;
                 }              
             }
-            
+
             div.bottom-info{
                 margin-top:5px;
                 height: 25px;
-                
+
                 div.left-side-info{
                     width:100%;
                     height: 25px;
@@ -304,7 +304,7 @@ div.finished-course{
                         display: none;
                     }         
                 }
-                
+
                 div.right-side-info{                   
                     display: none;
                 }
@@ -321,11 +321,11 @@ div.finished-course-submenu{
                 visibility:hidden;    
                 height:17px;             
             }
-            
+
             div.bottom-info{
                 margin-top:5px;
                 height: 27px;
-                
+
                 div.left-side-info{
                     width:100%;
                     height: 25px;
@@ -333,7 +333,7 @@ div.finished-course-submenu{
                         display: none;
                     }         
                 }
-                
+
                 div.right-side-info{                   
                     display: none;
                 }
