@@ -14,51 +14,51 @@ body {
   font-family: "Proxima Nova", sans-serif;
   font-weight: 400;
   color: #2d2d2d; }
-  body div#wrapper {
+  body #wrapper {
     padding: 5px;
     width: 100%;
     margin: 0 auto;
     min-width: 400px; }
-    body div#wrapper div.container {
+    body #wrapper .container {
       margin: 0 auto; }
-      body div#wrapper div.container div.row {
+      body #wrapper .container .row {
         margin-left: 0;
         margin-right: 0; }
 
-div.course-panel {
+.course-panel {
   height: 100%;
   border: 2px solid #d6d6d6;
   margin-bottom: 5px; }
-  div.course-panel div.image-container a.image-link {
+  .course-panel .image-container a.image-link {
     text-decoration: none;
     width: 99%;
     height: 99%; }
-    div.course-panel div.image-container a.image-link img.img-responsive {
+    .course-panel .image-container a.image-link img.img-responsive {
       width: 100%; }
-  div.course-panel div.course-info {
+  .course-panel .course-info {
     padding: 5px;
     position: relative; }
-    div.course-panel div.course-info div.course-title-field {
+    .course-panel .course-info .course-title-field {
       height: 60px;
       width: 100%;
       line-height: 28px;
       font-size: 18px; }
-      div.course-panel div.course-info div.course-title-field div.course-title {
+      .course-panel .course-info .course-title-field .course-title {
         height: 100%;
         width: 85%;
         display: inline-block; }
-        div.course-panel div.course-info div.course-title-field div.course-title span.course-title-text {
+        .course-panel .course-info .course-title-field .course-title span.course-title-text {
           display: inline-block; }
-      div.course-panel div.course-info div.course-title-field div.submenu {
+      .course-panel .course-info .course-title-field .submenu {
         width: 12%;
         height: 116px;
         float: right;
         font-size: 25px;
         text-align: center;
         color: #9f9f9f; }
-        div.course-panel div.course-info div.course-title-field div.submenu span.glyphicon {
+        .course-panel .course-info .course-title-field .submenu span.glyphicon {
           line-height: 2; }
-        div.course-panel div.course-info div.course-title-field div.submenu ul.hidden-menu-list {
+        .course-panel .course-info .course-title-field .submenu ul.hidden-menu-list {
           list-style: none;
           display: none;
           padding: 0;
@@ -70,90 +70,90 @@ div.course-panel {
           box-shadow: 3px 3px 3px #d6d6d6;
           border: 1px solid #d6d6d6;
           color: #2d2d2d; }
-          div.course-panel div.course-info div.course-title-field div.submenu ul.hidden-menu-list li {
+          .course-panel .course-info .course-title-field .submenu ul.hidden-menu-list li {
             display: none;
             border-bottom: 2px solid #d6d6d6;
             padding: 5px;
             background-color: white;
             font-size: 14px; }
-          div.course-panel div.course-info div.course-title-field div.submenu ul.hidden-menu-list li:hover {
+          .course-panel .course-info .course-title-field .submenu ul.hidden-menu-list li:hover {
             background-color: #f3f3f3; }
-    div.course-panel div.course-info div.info2 {
+    .course-panel .course-info .info2 {
       height: 54px; }
-    div.course-panel div.course-info div.course-info2 {
+    .course-panel .course-info .course-info2 {
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis; }
-    div.course-panel div.course-info div.bottom-info {
+    .course-panel .course-info .bottom-info {
       height: 25px;
       margin-top: 10px;
       display: inline-block;
       width: 100%; }
-      div.course-panel div.course-info div.bottom-info div.left-side-info, div.course-panel div.course-info div.bottom-info div.right-side-info {
+      .course-panel .course-info .bottom-info .left-side-info, .course-panel .course-info .bottom-info .right-side-info {
         display: inline-block; }
-      div.course-panel div.course-info div.bottom-info div.left-side-info div.progress-panel div.progress {
+      .course-panel .course-info .bottom-info .left-side-info .progress-panel .progress {
         height: 8px;
         margin-bottom: 0; }
-      div.course-panel div.course-info div.bottom-info div.right-side-info {
+      .course-panel .course-info .bottom-info .right-side-info {
         float: right;
         padding-top: 3px; }
 
-div.available-course div.course-panel div.course-title-field div.course-title {
+.available-course .course-panel .course-title-field .course-title {
   width: 100%; }
-  div.available-course div.course-panel div.course-title-field div.course-title span.course-title-text {
+  .available-course .course-panel .course-title-field .course-title span.course-title-text {
     width: 100%; }
-div.available-course div.course-panel div.course-title-field div.submenu {
+.available-course .course-panel .course-title-field .submenu {
   width: 0;
   display: none; }
-div.available-course div.course-panel div.info2 div.rating-price-container {
+.available-course .course-panel .info2 .rating-price-container {
   height: 20; }
-div.available-course div.course-panel div.bottom-info {
+.available-course .course-panel .bottom-info {
   height: 27px; }
 
-div.started-course div.course-panel div.course-title-field div.submenu:hover ul.hidden-menu-list, div.started-course div.course-panel div.course-title-field div.submenu:hover ul.hidden-menu-list li {
+.started-course .course-panel .course-title-field .submenu:hover ul.hidden-menu-list, .started-course .course-panel .course-title-field .submenu:hover ul.hidden-menu-list li {
   display: none; }
-div.started-course div.course-panel div.course-info div.info2 {
+.started-course .course-panel .course-info .info2 {
   visibility: hidden;
   height: 17px; }
-div.started-course div.course-panel div.course-info div.bottom-info {
+.started-course .course-panel .course-info .bottom-info {
   margin-top: 5px;
   height: 25px; }
-  div.started-course div.course-panel div.course-info div.bottom-info div.left-side-info {
+  .started-course .course-panel .course-info .bottom-info .left-side-info {
     width: 100%;
     height: 25px; }
 
-div.started-course-expiration div.course-panel div.course-title-field div.submenu:hover ul.hidden-menu-list, div.started-course-expiration div.course-panel div.course-title-field div.submenu:hover ul.hidden-menu-list li {
+.started-course-expiration .course-panel .course-title-field .submenu:hover ul.hidden-menu-list, .started-course-expiration .course-panel .course-title-field .submenu:hover ul.hidden-menu-list li {
   display: none; }
-div.started-course-expiration div.course-panel div.course-info div.bottom-info {
+.started-course-expiration .course-panel .course-info .bottom-info {
   margin-top: 5px;
   height: 25px; }
-  div.started-course-expiration div.course-panel div.course-info div.bottom-info div.left-side-info {
+  .started-course-expiration .course-panel .course-info .bottom-info .left-side-info {
     width: 100%;
     height: 25px; }
 
-div.finished-course div.course-panel div.course-title-field div.submenu:hover ul.hidden-menu-list, div.finished-course div.course-panel div.course-title-field div.submenu:hover ul.hidden-menu-list li {
+.finished-course .course-panel .course-title-field .submenu:hover ul.hidden-menu-list, .finished-course .course-panel .course-title-field .submenu:hover ul.hidden-menu-list li {
   display: none; }
-div.finished-course div.course-panel div.course-info div.info2 {
+.finished-course .course-panel .course-info .info2 {
   height: 17px; }
-div.finished-course div.course-panel div.course-info div.bottom-info {
+.finished-course .course-panel .course-info .bottom-info {
   margin-top: 5px;
   height: 25px; }
-  div.finished-course div.course-panel div.course-info div.bottom-info div.left-side-info {
+  .finished-course .course-panel .course-info .bottom-info .left-side-info {
     width: 100%;
     height: 25px; }
 
-div.finished-course-submenu div.course-panel div.course-info div.info2 {
+.finished-course-submenu .course-panel .course-info .info2 {
   visibility: hidden;
   height: 17px; }
-div.finished-course-submenu div.course-panel div.course-info div.bottom-info {
+.finished-course-submenu .course-panel .course-info .bottom-info {
   margin-top: 5px;
   height: 27px; }
-  div.finished-course-submenu div.course-panel div.course-info div.bottom-info div.left-side-info {
+  .finished-course-submenu .course-panel .course-info .bottom-info .left-side-info {
     width: 100%;
     height: 25px; }
 
 @media screen and (max-width: 550px) {
-  div div.course-panel div.course-info div.bottom-info div.right-side-info {
+  .course-panel .course-info .bottom-info .right-side-info {
     float: left;
     padding-top: 0;
     margin-top: -3px; } }
