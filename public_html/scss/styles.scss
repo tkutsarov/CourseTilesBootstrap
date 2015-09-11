@@ -85,7 +85,7 @@ body{
             //hidden submenu shown on hovering over the element
             .submenu{          
                 width: 12%;
-                height: 116px;
+                height: 60px;
                 float:right;
                 font-size: 25px;
                 text-align: center;               
@@ -123,9 +123,11 @@ body{
                 }
             }           
         }
-        .info2{
-            height: 54px;
+        
+        .info2, .bottom-info{
+            height: 30px;
         }
+        
         .course-info2{             
             white-space: nowrap;
             overflow:hidden;
@@ -133,7 +135,6 @@ body{
         }
 
         .bottom-info{  
-            height: 25px;
             margin-top: 10px;
             display: inline-block;
             width: 100%;
@@ -144,6 +145,7 @@ body{
 
             .left-side-info{
                 .progress-panel{
+                   
                     .progress{
                         height:8px;
                         margin-bottom: 0;
@@ -156,142 +158,6 @@ body{
                 padding-top: 3px;
             }         
         }
-    }
-}
-
-// Available course
-.available-course{
-    .course-panel{       
-        // Do not display the submenu when the course is available and expand title to 100% width.
-        .course-title-field{                                            
-            .course-title{   
-                width:100%;   
-                span.course-title-text{                   
-                    width: 100%;
-                }
-            }
-
-            .submenu{          
-                width: 0;   
-                display: none;
-            }                     
-        }
-
-        .info2{
-            .rating-price-container{
-                height:20;
-            }              
-        }
-
-        .bottom-info{
-            height: 27px;
-        }
-    }
-}
-
-// Started course
-.started-course{
-    .course-panel{  
-        .course-title-field{                                                
-            .submenu:hover{          
-                ul.hidden-menu-list, ul.hidden-menu-list li {
-                    display: none;              
-                }
-            }                     
-        }
-
-        .course-info{
-            .info2{               
-                visibility:hidden;    
-                height:17px;
-            }
-
-            .bottom-info{
-                margin-top:5px;
-                height: 25px;
-
-                .left-side-info{
-                    width:100%;
-                    height: 25px;
-                }
-            }
-        }       
-    }
-}
-
-// Started course with expiration info
-.started-course-expiration{
-    .course-panel{  
-        .course-title-field{                                                
-            .submenu:hover{          
-                ul.hidden-menu-list, ul.hidden-menu-list li {
-                    display: none;              
-                }
-            }                     
-        }
-
-        .course-info{      
-            .bottom-info{
-                margin-top:5px;
-                height: 25px;
-
-                .left-side-info{
-                    width:100%;
-                    height: 25px;
-                }
-            }           
-        }       
-    }
-}
-
-// Finished course
-.finished-course{
-    .course-panel{  
-        .course-title-field{                                                
-            .submenu:hover{          
-                ul.hidden-menu-list, ul.hidden-menu-list li {
-                    display: none;              
-                }
-            }                     
-        }
-
-        .course-info{      
-            .info2{
-                height:17px;
-            }
-
-            .bottom-info{
-                margin-top:5px;
-                height: 25px;
-
-                .left-side-info{
-                    width:100%;
-                    height: 25px;
-                }
-            }           
-        }       
-    }
-}
-
-// Finished course with submenu
-.finished-course-submenu{
-    .course-panel{         
-        .course-info{      
-            .info2{
-                visibility:hidden;    
-                height:17px;             
-            }
-
-            .bottom-info{
-                margin-top:5px;
-                height: 27px;
-
-                .left-side-info{
-                    width:100%;
-                    height: 25px;
-                }
-            }           
-        }       
     }
 }
 

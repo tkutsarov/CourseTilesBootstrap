@@ -51,7 +51,7 @@ body {
           display: inline-block; }
       .course-panel .course-info .course-title-field .submenu {
         width: 12%;
-        height: 116px;
+        height: 60px;
         float: right;
         font-size: 25px;
         text-align: center;
@@ -69,7 +69,8 @@ body {
           z-index: 999;
           box-shadow: 3px 3px 3px #d6d6d6;
           border: 1px solid #d6d6d6;
-          color: #2d2d2d; }
+          color: #2d2d2d;
+          }
           .course-panel .course-info .course-title-field .submenu ul.hidden-menu-list li {
             display: none;
             border-bottom: 2px solid #d6d6d6;
@@ -79,14 +80,13 @@ body {
             cursor: pointer; }
           .course-panel .course-info .course-title-field .submenu ul.hidden-menu-list li:hover {
             background-color: #f3f3f3; }
-    .course-panel .course-info .info2 {
-      height: 54px; }
+    .course-panel .course-info .info2, .course-panel .course-info .bottom-info {
+      height: 30px; }
     .course-panel .course-info .course-info2 {
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis; }
     .course-panel .course-info .bottom-info {
-      height: 25px;
       margin-top: 10px;
       display: inline-block;
       width: 100%; }
@@ -98,60 +98,6 @@ body {
       .course-panel .course-info .bottom-info .right-side-info {
         float: right;
         padding-top: 3px; }
-
-.available-course .course-panel .course-title-field .course-title {
-  width: 100%; }
-  .available-course .course-panel .course-title-field .course-title span.course-title-text {
-    width: 100%; }
-.available-course .course-panel .course-title-field .submenu {
-  width: 0;
-  display: none; }
-.available-course .course-panel .info2 .rating-price-container {
-  height: 20; }
-.available-course .course-panel .bottom-info {
-  height: 27px; }
-
-.started-course .course-panel .course-title-field .submenu:hover ul.hidden-menu-list, .started-course .course-panel .course-title-field .submenu:hover ul.hidden-menu-list li {
-  display: none; }
-.started-course .course-panel .course-info .info2 {
-  visibility: hidden;
-  height: 17px; }
-.started-course .course-panel .course-info .bottom-info {
-  margin-top: 5px;
-  height: 25px; }
-  .started-course .course-panel .course-info .bottom-info .left-side-info {
-    width: 100%;
-    height: 25px; }
-
-.started-course-expiration .course-panel .course-title-field .submenu:hover ul.hidden-menu-list, .started-course-expiration .course-panel .course-title-field .submenu:hover ul.hidden-menu-list li {
-  display: none; }
-.started-course-expiration .course-panel .course-info .bottom-info {
-  margin-top: 5px;
-  height: 25px; }
-  .started-course-expiration .course-panel .course-info .bottom-info .left-side-info {
-    width: 100%;
-    height: 25px; }
-
-.finished-course .course-panel .course-title-field .submenu:hover ul.hidden-menu-list, .finished-course .course-panel .course-title-field .submenu:hover ul.hidden-menu-list li {
-  display: none; }
-.finished-course .course-panel .course-info .info2 {
-  height: 17px; }
-.finished-course .course-panel .course-info .bottom-info {
-  margin-top: 5px;
-  height: 25px; }
-  .finished-course .course-panel .course-info .bottom-info .left-side-info {
-    width: 100%;
-    height: 25px; }
-
-.finished-course-submenu .course-panel .course-info .info2 {
-  visibility: hidden;
-  height: 17px; }
-.finished-course-submenu .course-panel .course-info .bottom-info {
-  margin-top: 5px;
-  height: 27px; }
-  .finished-course-submenu .course-panel .course-info .bottom-info .left-side-info {
-    width: 100%;
-    height: 25px; }
 
 @media screen and (max-width: 550px) {
   .course-panel .course-info .bottom-info .right-side-info {
